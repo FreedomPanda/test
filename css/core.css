@@ -1,0 +1,83 @@
+
+/*css reset*/
+body{
+	background: black;
+}
+ul{
+    list-style: none;
+}
+
+/*基础样式*/
+.width-350{
+    min-width: 350px;
+}
+.position-left {
+    margin-right: 7px;
+}
+.icons-list{
+    float:right;
+}
+/*导航样式*/
+.navbar{
+    border-width:1px 0;
+    padding: 0;
+}
+.navbar-inverse{
+	border-bottom-color: rgba(255,255,255,0.1);
+	color: #fff;
+}
+.navbar-header{
+    min-width: 260px;
+}
+.navbar-brand>img{
+	margin-top:2px;
+	height: 16px;
+}
+.navbar-nav>li>a>.badge{
+    position: absolute;
+    top: 1px;
+    right: -3px;
+}
+.navbar-nav .dropdown-menu  .media-list {
+    max-height: 340px;
+    overflow-y: auto;
+}
+
+/*下拉样式*/
+.dropdown-menu{
+    min-width: 180px;
+    padding: 5px 0;
+    color: #333;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+
+}
+.dropdown-content-heading{
+    padding: 20px;
+}
+.dropdown-content-body{
+    list-style: none;
+    padding: 0 20px 20px 20px;
+}
+/*Buttons样式*/
+
+.btn-sm{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.btn-rounded{
+    border-radius: 50px;
+    border-width: 2px;
+}
+
+
+/*Media样式*/
+.media-annotation{
+
+    color: #999;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+
